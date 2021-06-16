@@ -30,8 +30,8 @@ deactivate
 pip install -r requirements.txt
 ```
 
-### Rename env_set_example to env_set.sh (one time). Copy SAS token to this file(one time). Source this file (each time you need the environment )
-There is an example env set script provided: env_set_example, rename this file to env_set.sh ( this is ignored by git). Source this file: 
+### Rename env_set_example to env_set.sh (one time). Copy Connection String to this file(one time). Source this file (each time you need the environment )
+Please note that Connection String is different than the SAS token. There is an example env set script provided: env_set_example, rename this file to env_set.sh ( this is ignored by git). Source this file: 
 ```
 source ./env_set.sh
 ```
